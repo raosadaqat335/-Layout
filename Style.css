@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+}
+.left{
+  width: 20%;
+  padding: 20px;
+  background-color: #DAE7D6;
+}
+.right{
+  width: 80%;
+}
+.right .header{
+  background-color: #A5CC4F;
+  padding: 20px;
+  height: 20%;
+
+}
+.right .article{
+  background-color: white;
+  padding: 20px;
+  height: 60%;
+
+}
+.right .footer{
+  background-color: #A5CC4F;
+  padding: 20px;
+  height: 20%;
+
+
+}
